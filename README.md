@@ -84,7 +84,7 @@ dismiss | when participant dismissed a survey notification
 tz | records changes in timezone
 kccq | kccq survey
 
-###**Mood Zoom**
+### **Mood Zoom**
 Filename e.g. `495597707.mz`
 
 `Header Values` | Question | Answer  |
@@ -115,7 +115,7 @@ Example File:
 
 If multiple answers or chosen input will have multiple numbers e.g. `123`
 
-###**Mood Swipe**
+### **Mood Swipe**
 Filename e.g. `495597707.ms`
 
 Mood Swipe Key | MoodSwipe Value |
@@ -259,17 +259,17 @@ Example File:
 ```
 ## 5. Data Processing
 
-##WIP
-###**Accel**
+## WIP
+### **Accel**
 Use the loadAcc.m (uses processaccel.py) function to load it, then accFiltAmoss.m to bandpass filter and then convertAccToEpochs_oakley.m to convert to counts.
 
 
 ## 5. 3rd Party API
-###**Epic on FHIR**
+### **Epic on FHIR**
 All EPIC FHIR EMR data collected are de-identified by filtering PHI before storing in the cloud. Documentation for data being collected can be found here:
 https://open.epic.com/Interface/FHIR
 
-###**Garmin**
+### **Garmin**
 All data available from the Health API is categorized as different types of summary data. Push integrations receive this data directly from the Push notification POST body, but Ping/Pull integrations must call the Health API with requests signed with the Consumer Key (representing the partner) and the UAT (representing the user) via OAuth. The summary data should be archived by the partner, as the Health API only keeps user data for fifteen days from the upload date.
 
 Documentation for Garmin's summary data types are availble for registered users. To access this please contact the developers.
