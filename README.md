@@ -2,16 +2,15 @@
 1. [Moyo_data_processing_OS](#1-moyo-data-processing-OS)
 2. [About the data](#2-about-the-data)
 3. [Data Format](#3-data-format)
-    1. [Accelerometer file](#21-activity) 
-    2. [Location file](#22-location-context) 
-    3.     1. [Activity](#21-activity) 
-    4. [Weight file](#22-location-context) 
-    5.     1. [Activity](#21-activity) 
-    6. [Location Context](#22-location-context) 
-    7.     1. [Activity](#21-activity) 
-    8. [Location Context](#22-location-context) 
-    9.     1. [Activity](#21-activity) 
-    10. [Location Context](#22-location-context) 
+    1. [Accelerometer file](#21-accelerometer-file) 
+    2. [Location file](#22-location-file) 
+    3. [Weight file](#22-weight-file) 
+    4. [Charging file](#22-charging-file) 
+    5. [Sms file](#22-sms-file) 
+    6. [Places file](#22-places-file) 
+    7. [Places file](#22-location-context) 
+    8. [Weather file](#22-location-context) 
+    9. [Survey files](#22-location-context) 
 4. [Data Processiong](#4-data-processing)
 5. [3rd Party APIs](#5-3rd-party-apis)
 
@@ -55,20 +54,20 @@ Value | Meaning |
 5 | type failed
 6 | type queued
 
-## 3.7. Call file
+## 3.6. Call file
 1. <b>File Name:</b> .call extension (example: socact_call.call) for same reason as location file will change to 495597707.call
 2. <b>Header:</b> "hashed-ph-number,call-type,call-date,call-duration"
 3. Call duration is in seconds
 
-## 3.8. Places file
+## 3.7. Places file
 1. <b>File Name:</b> make requests to google api's for location context information such as restaurants and whatever establishments are around .csv extension (example: Places.csv) for same reason as location file will change to 495597707.places
 2. <b>Header:</b> "Timestamp,Name,Address,Estab.#,Likelihood"
 
-## 3.9. Weather file
+## 3.8. Weather file
 1. <b>File Name:</b> make requests to google api's for weather information .csv extension (example: Weather.csv) for same reason as location file will change to 495597707.weather
 2. <b>Header:</b> "Timestamp,Temperature,Feels Like,Dew,Humidity,Cond#"
 
-## 3.10. Survey files
+## 3.9. Survey files
 File extensions | type |
 --- | --- |
 mz | mood zoom survey
