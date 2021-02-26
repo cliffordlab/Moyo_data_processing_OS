@@ -8,9 +8,9 @@
     4. [Charging file](#22-charging-file) 
     5. [Sms file](#22-sms-file) 
     6. [Places file](#22-places-file) 
-    7. [Places file](#22-location-context) 
-    8. [Weather file](#22-location-context) 
-    9. [Survey files](#22-location-context) 
+    7. [Call file](#22-call-context) 
+    8. [Weather file](#22-weather-context) 
+    9. [Survey files](#22-survey-context) 
 4. [Data Processiong](#4-data-processing)
 5. [3rd Party APIs](#5-3rd-party-apis)
 
