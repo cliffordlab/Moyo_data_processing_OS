@@ -248,7 +248,7 @@ Example File:
 8,511
 ```
 
-## 3.10. Survey files
+## 3.10. 3rd Party
 ###**Epic on FHIR**
 All EPIC FHIR EMR data collected are de-identified by filtering PHI before storing in the cloud. Documentation for data being collected can be found here:
 https://open.epic.com/Interface/FHIR
