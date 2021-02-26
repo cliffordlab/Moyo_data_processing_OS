@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Moyo_data_processing_OS](#1-moyo-data-processing-OS)
+1. [Moyo data processing OS](#1-moyo-data-processing-OS)
 2. [About the data](#2-about-the-data)
 3. [Data Format](#3-data-format)
     1. [Accelerometer file](#31-accelerometer-file) 
