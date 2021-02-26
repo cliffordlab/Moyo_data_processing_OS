@@ -259,7 +259,7 @@ Example File:
 ```
 ## 5. Data Processing
 
-WIP
+##WIP
 ###**Accel**
 Use the loadAcc.m (uses processaccel.py) function to load it, then accFiltAmoss.m to bandpass filter and then convertAccToEpochs_oakley.m to convert to counts.
 
