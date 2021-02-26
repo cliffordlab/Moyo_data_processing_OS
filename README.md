@@ -260,6 +260,11 @@ Example File:
 ```
 ## 5. Data Processing
 
+WIP
+###**Accel**
+Use the loadAcc.m (uses processaccel.py) function to load it, then accFiltAmoss.m to bandpass filter and then convertAccToEpochs_oakley.m to convert to counts.
+
+
 ## 5. 3rd Party API
 ###**Epic on FHIR**
 All EPIC FHIR EMR data collected are de-identified by filtering PHI before storing in the cloud. Documentation for data being collected can be found here:
