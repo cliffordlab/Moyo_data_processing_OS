@@ -46,17 +46,7 @@ end
 % Assign variables
 t = output(:,1);
 nLines = length(t);
-%{
-% Open file
-fileID = fopen(path,'rt');
 
-% Find number of rows
-nLines = 0;
-while (fgets(fileID) ~= -1)
-  nLines = nLines+1;
-end
-fclose(fileID);
-%}
 % Initialize variables to store output
 t = NaN(nLines, 1);
 x = NaN(nLines, 1);
