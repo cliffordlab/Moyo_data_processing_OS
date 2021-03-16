@@ -259,12 +259,18 @@ Example File:
 ```
 ## 5. Data Processing
 
-## WIP
-### **Accel**
+## 5.1. Data loading pipeline
+Use pipeline_Moyo.m to load the files produced by the smartphone app into MATLAB environment. This function uses the functions inside "data_loading" folder and takes three inputs:
+pathToData: Path of smartphone data files  
+pathToRepo: Path of OS Moyo repository  
+pathToSave: Path you prefer to save your files  
+
+## 5.2. Converting accelerometer data into activity counts
 Use the loadAcc.m (uses processaccel.py) function to load it, then accFiltAmoss.m to bandpass filter and then convertAccToEpochs_oakley.m to convert to counts.
+More functions related to movement data can be found in the open source actigraphy toolbox:  
+https://github.com/cliffordlab/OS_Actigraphy_Toolbox
 
-
-## 5. 3rd Party API
+## 6. 3rd Party API
 ### **Epic on FHIR**
 All EPIC FHIR EMR data collected are de-identified by filtering PHI before storing in the cloud. Documentation for data being collected can be found here:
 https://open.epic.com/Interface/FHIR
